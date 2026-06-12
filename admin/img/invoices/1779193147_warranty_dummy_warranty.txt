@@ -1,0 +1,7 @@
+GK ALMIRAH WARRANTY CARD
+
+Warranty Card ID: TEST-WARRANTY-001
+Customer: John Test
+Product Serial: GKA-2026-1234
+
+This is a dummy warranty card file for testing upload functionality.

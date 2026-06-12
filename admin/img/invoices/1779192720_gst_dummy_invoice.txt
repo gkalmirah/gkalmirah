@@ -1,0 +1,9 @@
+GK ALMIRAH GST INVOICE
+
+Invoice Number: INV-123
+Customer: John Test
+Product: Test Almirah
+Purchase Date: 19 May 2026
+Dealer: Test Dealer
+
+This is a dummy invoice file for testing warranty upload functionality.

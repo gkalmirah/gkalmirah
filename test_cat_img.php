@@ -1,0 +1,1 @@
+<?php require('include/dbcon.php'); $q = 'SELECT c.category, p.product_img1 FROM categories c LEFT JOIN product_categories pc ON c.id = pc.category_id LEFT JOIN furniture_product p ON pc.product_id = p.product_id GROUP BY c.id'; $res = mysqli_query($con, $q); while($row = mysqli_fetch_assoc($res)) { echo $row['category'] . ' -> ' . $row['product_img1'] . "\n"; } ?>

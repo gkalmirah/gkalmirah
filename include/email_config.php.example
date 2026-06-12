@@ -1,0 +1,16 @@
+<?php
+// include/email_config.php.example
+// Copy this file to include/email_config.php and fill in your credentials.
+
+define('SMTP_HOST', 'smtp.gmail.com');
+define('SMTP_PORT', 587); // Use 587 for TLS, 465 for SSL
+
+// Your Gmail credentials
+define('SMTP_USER', 'your-email@gmail.com');
+define('SMTP_PASS', 'your-app-password');
+
+// Email Header Information
+define('SMTP_FROM_EMAIL', 'your-email@gmail.com');
+define('SMTP_FROM_NAME', 'GK Almirah');
+define('SMTP_REPLY_TO', 'your-email@gmail.com');
+?>

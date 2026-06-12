@@ -1,0 +1,42 @@
+# Sensitive Configurations
+include/email_config.php
+
+# Local/Temporary Test Scripts & Outputs
+test_email_sending.php
+test_warranty_emails.php
+all_errors.txt
+all_errors_utf8.txt
+diag_output.txt
+diag_output_v2.txt
+test_output.txt
+err_cart.txt
+err_cart2.txt
+err_checkout.txt
+errors_utf8.txt
+stderr.txt
+stdout.txt
+out_*.txt
+temp_page.html
+qc
+query
+
+# Log Files
+*.log
+whatsapp_log.txt
+
+# Screenshots/Images
+email_preview_top_*.png
+
+# Local Database Backups
+database_backup_21_products_utf8.sql
+if0_37073296_furnitureshopmain.sql
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+vendor/
+node_modules/
+*.zip
+*.rar
+*.sql
+video/
